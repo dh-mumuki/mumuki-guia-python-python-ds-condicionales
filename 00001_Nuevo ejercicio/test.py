@@ -1,5 +1,5 @@
-if True:
-  print('entre en el primer if')
+class test(unittest.TestCase):
   
-if False:
-  print('entre en el segundo if')
+  def test_print(self):
+    self.assertTrue()
+    
