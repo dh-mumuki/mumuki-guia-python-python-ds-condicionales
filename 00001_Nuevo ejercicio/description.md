@@ -1,1 +1,0 @@
-En esta celda vamos a mostrar como se comporta el if, en python el valor True es un tipo booleano que quiere decir verdadero.
