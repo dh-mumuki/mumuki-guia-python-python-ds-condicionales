@@ -1,0 +1,1 @@
+Es posible que, cumpliendose alguna condicion sobre un dato, tengamos que hacer alguna otra, 
