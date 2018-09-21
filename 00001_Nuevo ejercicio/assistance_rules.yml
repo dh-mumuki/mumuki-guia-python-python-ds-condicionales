@@ -1,0 +1,4 @@
+---
+rules:
+- when: submission_failed
+  then: "'entre en el primer if'"
