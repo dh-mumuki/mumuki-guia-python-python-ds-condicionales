@@ -1,4 +1,4 @@
-En esta celda vamos a mostrar como se comporta el `if`, en python el valor `True` es un tipo booleano que quiere decir verdadero.
+En este Ejercicio vamos a mostrar como se comporta el `if`, en python el valor `True` es un tipo booleano que quiere decir verdadero.
 
 Como el valor `True` siempre da como resultado verdadero, entonces el código dentro del `if` (que se encuentra a un nivel más de indentación) se ejecuta.
 

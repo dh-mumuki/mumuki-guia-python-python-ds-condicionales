@@ -1,9 +1,9 @@
 ---
 tags: []
-layout: input_right
+layout: input_bottom
 editor: code
-type: playground
+type: reading
 extra_visible: true
 manual_evaluation: false
 choices: []
-name: Nuevo ejercicio
+name: Uso recurrente
