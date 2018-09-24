@@ -38,8 +38,9 @@ En este último caso podemos observar la utilidad del `if`, ya que, en función 
     if len('Python') == 3:
       print('tiene pocos elementos')
     ```
-    _Salida:_
-**>  **
+    _Salida:_ 
+**>**
+
 En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tanto el codigo dentro del condicional `if` no se ejecutará.
 
   * Si el resultado de una operación numérica es igual al resultado de otra, entonces multiplica 3x8 e imprime el resultado.
