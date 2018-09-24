@@ -1,6 +1,6 @@
-Para poder construir un programa, se deben utilizar expresiones en donde se tengan que llevar a cabo evaluaciones basadas sobre las propiedades de algún dato.
+Para poder construir un programa, se deben utilizar expresiones en donde se tengan que llevar a cabo evaluaciones basadas en las propiedades de algún dato.
 
-Estas evaluaciones pueden dar como resultado 2 tipos de valores en python: True o False. El comportamiento de un programa puede encontrarse determinado por la forma en la que son evaluadas estos predicados.
+Estas evaluaciones pueden dar como resultado 2 tipos de valores en python: True o False. El comportamiento de un programa puede encontrarse determinado por la forma en los que estos predicados son evaluados.
 
 **Introducción al uso de predicados condicionales.**
 
