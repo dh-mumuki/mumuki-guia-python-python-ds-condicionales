@@ -7,4 +7,5 @@ Se pueden pensar como una pregunta que se hace con respecto a los datos:
       ``` python
     3 > 2
     ```
-    
+    _Salida:_
+**> True**
