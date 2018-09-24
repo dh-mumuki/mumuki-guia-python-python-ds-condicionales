@@ -101,3 +101,7 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
   
   _Salida:_
   **> 360 no es menor a 180**
+
+Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de indentación.
+
+### esquema `if`/`else`
