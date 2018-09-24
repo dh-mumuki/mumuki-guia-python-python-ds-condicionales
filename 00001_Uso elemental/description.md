@@ -89,14 +89,12 @@ Ahora bien, es posible ejecutar código alternativo cuando no se cumple la condi
 El código dado en `else` se ejecuta **siempre** que no se cumpla la condición `if` (siempre en un esquema `if`/`else`)
 
   ``` python
-    
     num_3 = 360
 
     if num_3 < 180:
       print(num_3, 'es menor a 180')
     else:
       print(num_3, 'no es menor a 180')
-  
   ```
   
   _Salida:_
@@ -104,4 +102,4 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
 
 Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de indentación.
 
-### esquema `if`/`else`
+### Condicionales anidados.
