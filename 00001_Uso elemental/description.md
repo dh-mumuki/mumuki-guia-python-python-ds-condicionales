@@ -19,4 +19,7 @@ _Salida:_
 
 El resultado de la evaluación del `False` es siempre falso, por esa razón el código dentro de este segundo condicional, nunca va a ser ejecutado.
 
-Recordemos los ejemplos del enunciado anterior
+Retomemos los ejemplos del <a href=#/guides/dh-mumuki/mumuki-guia-python-python-ds-condicionales/exercises/4 >enunciado anterior </a>, pero ahora vamos a utilizar los condicionales para darle un sentido a las evaluaciones:
+
+
+
