@@ -86,7 +86,7 @@ Como podemos observar en esta demostración, solo los `if` en donde el resultado
 
 Ahora bien, es posible ejecutar código alternativo cuando no se cumple la condición declarada en el `if`, una de las formas es hacer un llamado al `else`.
 
-El código dado en `else` se ejecuta **siempre** que no se cumpla la condición `if` (siempre en un esquema `if`/`else`)
+El código dado en `else` se ejecuta **siempre** que no se cumpla la condición `if` (en un esquema `if`/`else`)
 
   ``` python
     num_3 = 360
@@ -100,6 +100,6 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
   _Salida:_
   **> 360 no es menor a 180**
 
-Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de indentación.
+Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>.
 
-### Condicionales anidados.
+### Condicionales anidados e <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación. </a>
