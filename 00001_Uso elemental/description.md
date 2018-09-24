@@ -26,7 +26,6 @@ Retomemos los ejemplos del <a href=#/guides/dh-mumuki/mumuki-guia-python-python-
       ``` python
     if 3 > 2:
       print('Es mayor')
-      
     ```
     _Salida:_
 **> Es mayor**
