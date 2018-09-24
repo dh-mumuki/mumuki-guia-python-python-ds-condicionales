@@ -100,4 +100,4 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
   ```
   
   _Salida:_
-  **> 360 no es menor a 100**
+  **> 360 no es menor a 180**
