@@ -84,26 +84,17 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
 
 Como podemos observar en esta demostración, solo los `if` en donde el resultado es `True`, ejecutan el código correspondiente.
 
-Tomemos este ejemplo.
+Ahora bien, es posible ejecutar código alternativo cuando no se cumple la condición declarada en el `if`, una de las formas es hacer un llamado al `else`.
+
+El código dado en `else` se ejecuta *siempre* que no se cumpla la condición `if`, en un esquema `if`-`else`
 
   ``` python
     
     num_1 = 90
-    num_2 = 180
-    num_3 = 360
-    
+
     if num_1 < 180:
       print(num_1, 'es menor a 180')
     else:
       print(num_1, 'no es menor a 180')
-    
-    if num_2 < 180:
-      print(num_2, 'es menor a 180')
-    else:
-      print(num_2, 'no es menor a 180')
-        
-    if num_3 < 180:
-      print(num_3, 'es menor a 180')
-    else:
-      print(num_3, 'no es menor a 180')
-    ```
+  
+  ```
