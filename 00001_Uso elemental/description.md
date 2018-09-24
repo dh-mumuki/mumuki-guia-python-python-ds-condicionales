@@ -86,7 +86,7 @@ Como podemos observar en esta demostración, solo los `if` en donde el resultado
 
 Ahora bien, es posible ejecutar código alternativo cuando no se cumple la condición declarada en el `if`, una de las formas es hacer un llamado al `else`.
 
-El código dado en `else` se ejecuta *siempre* que no se cumpla la condición `if`, en un esquema `if`-`else`
+El código dado en `else` se ejecuta **siempre** que no se cumpla la condición `if` (siempre en un esquema `if`/`else`)
 
   ``` python
     
