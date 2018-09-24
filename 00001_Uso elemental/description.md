@@ -21,5 +21,41 @@ El resultado de la evaluación del `False` es siempre falso, por esa razón el c
 
 Retomemos los ejemplos del <a href=#/guides/dh-mumuki/mumuki-guia-python-python-ds-condicionales/exercises/4 >enunciado anterior </a>, pero ahora vamos a utilizar los condicionales para darle un sentido a las evaluaciones:
 
+  * Si un número es mayor a otro número, entonces...
+      
+      ``` python
+    if 3 > 2:
+      print('Es mayor')
+      
+    ```
+    _Salida:_
+**> Es mayor**
+
+En este último caso podemos observar la utilidad del `if`, ya que, en funcion al resultado de una expresión, podemos tomar determinadas deciciones.
+
+  * ¿La cantidad de elementos (caractéres) en una palabra es igual a una magnitud dada?
+      
+      ``` python
+    len('Python') == 3
+    ```
+    _Salida:_
+**> False**
+
+  * ¿El resultado de una operación numérica es igual al resultado de otra?
+      
+      ``` python
+    2*2 == 2**2
+    ```
+    _Salida:_
+**> True**
+
+  * ¿Existe un elemento dado en una lista?
+      
+      ``` python
+    'pingüino' in ['ballena', 'pingüino', 'pulpo']
+    ```
+    _Salida:_
+**> True**
+
 
 
