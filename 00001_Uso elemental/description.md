@@ -28,7 +28,7 @@ Retomemos los ejemplos del <a href=#/guides/dh-mumuki/mumuki-guia-python-python-
       print('Es mayor')
     ```
     _Salida:_
-**> Es mayor**
+  **> Es mayor**
 
 En este último caso podemos observar la utilidad del `if`, ya que, en función al resultado de una expresión, podemos tomar determinadas decisiones.
 
@@ -39,7 +39,7 @@ En este último caso podemos observar la utilidad del `if`, ya que, en función 
       print('tiene pocos elementos')
     ```
     _Salida:_ 
-**>**
+  **>**
 
 En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tanto el codigo dentro del condicional `if` no se ejecutará.
 
@@ -50,7 +50,7 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
       print(3*8)
     ```
     _Salida:_
-**> 24**
+  **> 24**
 
   * si existe un elemento dado en una lista, entonces imprime 'lo encontre'.
       
@@ -65,20 +65,20 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
 
   * Supongamos que debemos evaluar dos variables, ambas son enteros, y queremos declarar algunos predicados condicionales relacionados con la magnitud de estas variables.
 
-  ``` python
-  num_1 = 90
-  num_2 = 180
-  num_3 = 360
-  
-  if num_1 < 180:
-      print(num_1, 'es menor a 180')
-  
-  if num_2 < 180:
-      print(num_2, 'es menor a 180')
-      
-  if num_3 < 180:
-      print(num_3, 'es menor a 180')
-  ```
+    ``` python
+    num_1 = 90
+    num_2 = 180
+    num_3 = 360
+    
+    if num_1 < 180:
+        print(num_1, 'es menor a 180')
+    
+    if num_2 < 180:
+        print(num_2, 'es menor a 180')
+        
+    if num_3 < 180:
+        print(num_3, 'es menor a 180')
+    ```
   _Salida:_
   **> 360 es menor a 100**
 
@@ -87,24 +87,23 @@ Como podemos observar en esta demostración, solo los `if` en donde el resultado
 Tomemos este ejemplo.
 
   ``` python
-  num_1 = 90
-  num_2 = 180
-  num_3 = 360
-  
-  if num_1 < 180:
-    print(num_1, 'es menor a 180')
-  
-  else:
-    print(num_1, 'no es menor a 180')
-  
-  if num_2 < 180:
-    print(num_2, 'es menor a 180')
-  else:
-    print(num_2, 'no es menor a 180')
-
-      
-  if num_3 < 180:
-    print(num_3, 'es menor a 180')
-  else:
-    print(num_3, 'no es menor a 180')
-  ```
+    
+    num_1 = 90
+    num_2 = 180
+    num_3 = 360
+    
+    if num_1 < 180:
+      print(num_1, 'es menor a 180')
+    else:
+      print(num_1, 'no es menor a 180')
+    
+    if num_2 < 180:
+      print(num_2, 'es menor a 180')
+    else:
+      print(num_2, 'no es menor a 180')
+        
+    if num_3 < 180:
+      print(num_3, 'es menor a 180')
+    else:
+      print(num_3, 'no es menor a 180')
+    ```
