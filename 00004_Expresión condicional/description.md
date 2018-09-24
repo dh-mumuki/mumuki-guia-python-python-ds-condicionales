@@ -9,3 +9,12 @@ Se pueden pensar como una pregunta que se hace con respecto a los datos:
     ```
     _Salida:_
 **> True**
+
+  * ¿La cantidad de elementos (caractéres) en una palabra es igual a una magnitud dada?
+      
+      ``` python
+    len('Python') == 3
+    ```
+    _Salida:_
+**> False**
+
