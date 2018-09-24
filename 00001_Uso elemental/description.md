@@ -30,15 +30,16 @@ Retomemos los ejemplos del <a href=#/guides/dh-mumuki/mumuki-guia-python-python-
     _Salida:_
 **> Es mayor**
 
-En este último caso podemos observar la utilidad del `if`, ya que, en funcion al resultado de una expresión, podemos tomar determinadas deciciones.
+En este último caso podemos observar la utilidad del `if`, ya que, en función al resultado de una expresión, podemos tomar determinadas decisiones.
 
-  * ¿La cantidad de elementos (caractéres) en una palabra es igual a una magnitud dada?
+  * Si la cantidad de elementos (caractéres) en una palabra es igual a una magnitud dada, imprime 'tiene pocos elementos'
       
       ``` python
-    len('Python') == 3
+    if len('Python') == 3:
+      print('tiene pocos elementos')
     ```
     _Salida:_
-**> False**
+**> tiene pocos elementos**
 
   * ¿El resultado de una operación numérica es igual al resultado de otra?
       
