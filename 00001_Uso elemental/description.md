@@ -90,7 +90,7 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
 
   ``` python
     
-    num_1 = 90
+    num_3 = 360
 
     if num_1 < 180:
       print(num_1, 'es menor a 180')
@@ -98,3 +98,6 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
       print(num_1, 'no es menor a 180')
   
   ```
+  
+  _Salida:_
+  **> 360 no es menor a 100**
