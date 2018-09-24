@@ -92,10 +92,10 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
     
     num_3 = 360
 
-    if num_1 < 180:
-      print(num_1, 'es menor a 180')
+    if num_3 < 180:
+      print(num_3, 'es menor a 180')
     else:
-      print(num_1, 'no es menor a 180')
+      print(num_3, 'no es menor a 180')
   
   ```
   
