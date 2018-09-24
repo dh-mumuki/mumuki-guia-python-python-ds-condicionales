@@ -82,4 +82,4 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
   _Salida:_
   **> 360 es menor a 100**
 
-Como podemos observar en esta demostración, solo los `if` en donde el resultado es `True`, ejecutan el código de su 
+Como podemos observar en esta demostración, solo los `if` en donde el resultado es `True`, ejecutan el código correspondiente a las 
