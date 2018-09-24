@@ -54,7 +54,7 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
 
   * si existe un elemento dado en una lista, entonces imprime 'lo encontre'.
       
-      ``` python
+    ``` python
     if 'pingüino' in ['ballena', 'pingüino', 'pulpo']:
       print('lo encontre')
     ```
@@ -71,15 +71,40 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
   num_3 = 360
   
   if num_1 < 180:
-      print(num_1, 'es menor a 100')
+      print(num_1, 'es menor a 180')
   
   if num_2 < 180:
-      print(num_2, 'es menor a 100')
+      print(num_2, 'es menor a 180')
       
   if num_3 < 180:
-      print(num_3, 'es menor a 100')
+      print(num_3, 'es menor a 180')
   ```
   _Salida:_
   **> 360 es menor a 100**
 
-Como podemos observar en esta demostración, solo los `if` en donde el resultado es `True`, ejecutan el código correspondiente a las 
+Como podemos observar en esta demostración, solo los `if` en donde el resultado es `True`, ejecutan el código correspondiente.
+
+Tomemos este ejemplo.
+
+  ``` python
+  num_1 = 90
+  num_2 = 180
+  num_3 = 360
+  
+  if num_1 < 180:
+    print(num_1, 'es menor a 180')
+  
+  else:
+    print(num_1, 'no es menor a 180')
+  
+  if num_2 < 180:
+    print(num_2, 'es menor a 180')
+  else:
+    print(num_2, 'no es menor a 180')
+
+      
+  if num_3 < 180:
+    print(num_3, 'es menor a 180')
+  else:
+    print(num_3, 'no es menor a 180')
+  ```
