@@ -18,3 +18,5 @@ _Salida:_
 
 
 El resultado de la evaluación del `False` es siempre falso, por esa razón el código dentro de este segundo condicional, nunca va a ser ejecutado.
+
+Recordemos los ejemplos del enunciado anterior
