@@ -39,23 +39,26 @@ En este último caso podemos observar la utilidad del `if`, ya que, en función 
       print('tiene pocos elementos')
     ```
     _Salida:_
-**> tiene pocos elementos**
+**>  **
+En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tanto el codigo dentro del condicional `if` no se ejecutará.
 
-  * ¿El resultado de una operación numérica es igual al resultado de otra?
+  * Si el resultado de una operación numérica es igual al resultado de otra, entonces multiplica 3x8 e imprime el resultado.
       
       ``` python
-    2*2 == 2**2
+    if 2*2 == 2**2:
+      print(3*8)
     ```
     _Salida:_
-**> True**
+**> 24**
 
-  * ¿Existe un elemento dado en una lista?
+  * si existe un elemento dado en una lista, entonces imprime 'lo encontre'.
       
       ``` python
-    'pingüino' in ['ballena', 'pingüino', 'pulpo']
+    if 'pingüino' in ['ballena', 'pingüino', 'pulpo']:
+      print('lo encontre')
     ```
     _Salida:_
-**> True**
+**> 'lo encontre'**
 
 
 
