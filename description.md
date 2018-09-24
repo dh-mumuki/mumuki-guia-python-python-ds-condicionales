@@ -2,7 +2,7 @@ Para poder construir un programa, se deben utilizar expresiones en donde se teng
 
 Estas evaluaciones pueden dar como resultado 2 tipos de valores en python: True o False. El comportamiento de un programa puede encontrarse determinado por la forma en los que estos predicados son evaluados.
 
-**Introducción al uso de predicados condicionales.**
+**Introducción al uso de condicionales.**
 
 Los condicionales son estructuras de control en python y sirven para evaluar un predicado en terminos booleanos (que la sentencia se cumpla o no), entre los condicionales principales encontramos las estructuras de control **if**, **if-else**, **if-elif-else**:
           

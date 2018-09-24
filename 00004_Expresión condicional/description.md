@@ -1,1 +1,1 @@
-i
+Una expresión condicional devuelve como resultado dos posibles valores: `True` o `False`
