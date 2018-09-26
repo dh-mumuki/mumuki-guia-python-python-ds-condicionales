@@ -8,9 +8,10 @@ Veamos estos ejemplos con expresiones condicionales:
 
   ``` python
 if True:
-  # en este nivel va el código que pertenece al bloque del if
+  en este nivel va el código que pertenece al bloque del if
+  
 
-# en este nivel estamos fuera del primer if
+en este nivel estamos fuera del primer if
 
   ```
   _Salida:_
