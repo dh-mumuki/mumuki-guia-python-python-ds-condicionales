@@ -106,7 +106,7 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
 
 Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>. 
 
-Como se puede observar en este último ejemplo, no es necesaria la precedencia de una expresión lógica, . 
+Como se puede observar en este último ejemplo, no es necesaria la precedencia de una expresión lógica despúes del `else`, ya que la ejecución del código del `else`, en este esquema, depende de la evaluación realizada en el `if`. 
 
 
 ### Ejecutando código alternativo... (`if`/`elif`/`else`).
