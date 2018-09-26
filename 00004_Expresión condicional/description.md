@@ -34,4 +34,3 @@ Estas expresiones se pueden pensar como una pregunta que se hace con respecto a 
     _Salida:_
 **> True**
 
-Existe una gran variedad de formas de construir una expresión condicional, estas expresiones pueden ir escalando con el uso de operadores lógicos y el uso de funciones que dan como resultados un valor `True` o `False`.
