@@ -108,7 +108,9 @@ Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <
 
 
 
-Como se puede observar en este último ejemplo, no existe precedencia de una expresión lógica despúes del `else`, ya que la ejecución del código del `else`, en este esquema, depende de la evaluación realizada en el `if`: si el `if` es verdadero, entonces no se ejecuta el código en el `else`, si la expresión en `if` es falsa, entonces se ejecuta el código en `else`.
+Como se puede observar en este último ejemplo, no existe precedencia de una expresión lógica despúes del `else`, ya que la ejecución del código del `else`, en este esquema, depende de la evaluación realizada en el `if`: 
+  * si el `if` es verdadero, entonces no se ejecuta el código en el `else`
+  * si la expresión en `if` es falsa, entonces se ejecuta el código en `else`.
 
 
 ### Ejecutando código alternativo... (`if`/`elif`/`else`).
