@@ -12,14 +12,14 @@ if True:
   print(1)
   print(2)
   print('etc')
-
 #en este nivel estamos fuera del primer if
 print('termino')
   ```
   _Salida:_
-**> 1**
-**> 2**
-**> etc**
-**> termino**
+  
+**> 1**  
+**> 2**  
+**> etc**  
+**> termino**  
 
 
