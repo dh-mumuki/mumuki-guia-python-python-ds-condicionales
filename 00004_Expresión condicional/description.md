@@ -34,3 +34,4 @@ Estas expresiones se pueden pensar como una pregunta que se hace con respecto a 
     _Salida:_
 **> True**
 
+Las expresiones condicionales se pueden volver mas complejas con el uso de operadores lógicos.
