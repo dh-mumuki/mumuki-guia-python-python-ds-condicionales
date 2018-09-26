@@ -1,6 +1,6 @@
 En este Ejercicio vamos a mostrar como se comporta el `if`, en python el valor `True` es un <a href=https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico > un tipo de datos booleano </a>que quiere decir verdadero.
 
-Como el valor `True` siempre da como resultado verdadero, entonces el código dentro del `if` (que se encuentra a un nivel más de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>) se ejecuta.
+Como el valor `True` siempre es verdadero, entonces el código dentro del `if` (que se encuentra a un nivel más de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>) se ejecuta.
 
 ``` python
 if True:
@@ -86,6 +86,10 @@ Como podemos observar en esta demostración, solo los `if` en donde el resultado
 
 Ahora bien, es posible ejecutar código alternativo cuando no se cumple la condición declarada en el `if`, una de las formas es hacer un llamado al `else`.
 
+### Ejecutando código alternativo... (`if`/`else`).
+
+Cuando no se cumple una condición dada en `if`, es posible ejecutar un bloque de código alternativo, una forma es utilizar una llamada al `else`.
+
 El código dado en `else` se ejecuta **siempre** que no se cumpla la condición `if` (en un esquema `if`/`else`)
 
   ``` python
@@ -102,4 +106,6 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
 
 Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>.
 
-### Condicionales anidados e <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación. </a>
+Esto significa que 
+
+
