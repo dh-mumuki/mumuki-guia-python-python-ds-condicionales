@@ -22,4 +22,15 @@ print('termino')
 **> etc**  
 **> termino**  
 
-
+  ``` python
+if True:
+  #en este nivel va el código que pertenece al bloque del if
+  print(1)
+  print(2)
+  print('etc')
+#en este nivel estamos fuera del primer if
+print('termino')
+  ```
+  _Salida:_
+  
+**> termino**  
