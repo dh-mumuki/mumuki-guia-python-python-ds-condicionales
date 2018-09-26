@@ -116,4 +116,4 @@ Como se puede observar en este último ejemplo, no existe precedencia de una exp
 
 ### Ejecutando código alternativo... (`if`/`elif`/`else`).
 
-Además es posible tomar decisiones utilizando un conjunto de expresiones condicionales alternativas, esto podría ser util cuando las decisión 
+Además es posible tomar decisiones utilizando un conjunto de expresiones condicionales alternativas, esto podría ser útil cuando se desean tomar mas de dos decisiones sobre estos conjuntos de expresiones.
