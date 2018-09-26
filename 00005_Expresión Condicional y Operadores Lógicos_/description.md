@@ -9,6 +9,30 @@ En python3 estos operadores son 3 `not`, `and` y `or`.
 * `or`  : Evalúa potencialmente dos expresiones, si alguna es verdadera, devuelve verdadero, si ambas son falsas, devuelve falso.
 
 
-### Ejemplo
- 
+### Ejemplos
 
+      
+  ``` python
+  not False
+  ```
+  _Salida:_
+**> True**
+
+  ``` python
+  not 3 > 2
+  ```
+  _Salida:_
+**> False**
+
+
+  ``` python
+  True and True
+  ```
+  _Salida:_
+**> True**
+
+  ``` python
+  True and False
+  ```
+  _Salida:_
+**> False**
