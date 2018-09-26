@@ -36,21 +36,4 @@ Estas expresiones se pueden pensar como una pregunta que se hace con respecto a 
 
 Las expresiones condicionales se pueden volver mas complejas con el uso de operadores lógicos.
 
-<table>
 
-<tr>
- <th scope="col">dog</th>
- <th scope="col">cat</th>
- <th scope="col">horse</th>
-
- <th scope="col">iguana</th>
-</tr>
-<tr>
- <td>5</td>
- <td>2</td>
-
- <td>10</td>
- <td>500</td>
-</tr>
-
-</table>
