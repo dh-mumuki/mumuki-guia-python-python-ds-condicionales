@@ -104,7 +104,9 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
   _Salida:_
   **> 360 no es menor a 180**
 
-Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>.
+Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>. 
+
+Como se puede observar en este último ejemplo, no es necesaria la precedencia de una expresión lógica, . 
 
 
 ### Ejecutando código alternativo... (`if`/`elif`/`else`).
