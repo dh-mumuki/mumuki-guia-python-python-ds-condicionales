@@ -106,6 +106,5 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
 
 Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>.
 
-Esto significa que 
 
-
+### Ejecutando código alternativo... (`if`/`elif`/`else`).
