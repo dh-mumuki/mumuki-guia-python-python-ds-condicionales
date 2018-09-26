@@ -1,5 +1,7 @@
 
-**Introducción al uso de condicionales.**
+
+
+## Introducción al uso de condicionales.
 
 Los condicionales en python son estructuras de control que sirven para evaluar un predicado en términos de verdadero o falso (o sea, que la sentencia se cumpla o no)
 
