@@ -30,7 +30,7 @@ Retomemos los ejemplos del <a href=#/guides/dh-mumuki/mumuki-guia-python-python-
     _Salida:_
   **> Es mayor**
 
-En este último caso podemos observar la utilidad del `if`, ya que, en función al resultado de una expresión, podemos tomar determinadas decisiones.
+En este último caso podemos observar la utilidad del `if`, ya que, en función al resultado de una expresión, podemos tomar determinadas decisiones, en este caso, imprimir: 'Es mayor'
 
   * Si la cantidad de elementos (caractéres) en una palabra es igual a una magnitud dada, imprime 'tiene pocos elementos'
       
