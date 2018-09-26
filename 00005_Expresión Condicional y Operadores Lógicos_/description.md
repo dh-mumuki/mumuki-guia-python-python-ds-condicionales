@@ -44,3 +44,15 @@ True and False
   ```
   _Salida:_
 **> True**
+
+  ``` python
+True or False
+  ```
+  _Salida:_
+**> True**
+
+  ``` python
+2 < 1 or -1 < 3
+  ```
+  _Salida:_
+**> True**
