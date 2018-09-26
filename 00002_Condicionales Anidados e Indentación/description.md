@@ -1,3 +1,4 @@
 ### Condicionales Anidados e Indentación.
 
-Como vimos en los parágrafos anteriores
+En Python, lo que determina la forma en la que se encuentra agrupado el código, es la indentación.
+
