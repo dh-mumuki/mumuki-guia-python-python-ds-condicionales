@@ -13,26 +13,33 @@ En python3 estos operadores son 3 `not`, `and` y `or`.
 
       
   ``` python
-  not False
+not False
   ```
   _Salida:_
 **> True**
 
   ``` python
-  not 3 > 2
+not 3 > 2
   ```
   _Salida:_
 **> False**
 
 
   ``` python
-  True and True
+True and True
   ```
   _Salida:_
 **> True**
 
   ``` python
-  True and False
+True and False
   ```
   _Salida:_
 **> False**
+
+  ``` python
+# len(lista) devuelve la cantidad de elementos
+3 < 5 and len([1,2,3]) == 3
+  ```
+  _Salida:_
+**> True**
