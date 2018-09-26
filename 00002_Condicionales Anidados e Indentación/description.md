@@ -23,7 +23,7 @@ print('termino')
 **> termino**  
 
   ``` python
-if True:
+if False:
   #en este nivel va el código que pertenece al bloque del if
   print(1)
   print(2)
@@ -34,3 +34,9 @@ print('termino')
   _Salida:_
   
 **> termino**  
+
+Como se puede observar, en ambos ejemplos siempre se ejecuta el `print` que imprime "termino", sin embargo, el bloque que pertenece al `if`, se ejecuta en función al resultado de la evaluacion de la expresion dada.
+
+Entonces el indicador de que una sentencia pertenece o no al bloque, depende de la indentación.
+
+
