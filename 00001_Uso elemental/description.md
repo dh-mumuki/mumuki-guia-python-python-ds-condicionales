@@ -92,6 +92,8 @@ Cuando no se cumple una condición dada en `if`, es posible ejecutar un bloque d
 
 El código dado en `else` se ejecuta **siempre** que no se cumpla la condición `if` (en un esquema `if`/`else`)
 
+Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>. 
+
   ``` python
     num_3 = 360
 
@@ -104,7 +106,7 @@ El código dado en `else` se ejecuta **siempre** que no se cumpla la condición 
   _Salida:_
   **> 360 no es menor a 180**
 
-Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>. 
+
 
 Como se puede observar en este último ejemplo, no existe precedencia de una expresión lógica despúes del `else`, ya que la ejecución del código del `else`, en este esquema, depende de la evaluación realizada en el `if`: si el `if` es verdadero, entonces no se ejecuta el código en el `else`, si la expresión en `if` es falsa, entonces se ejecuta el código en `else`.
 
