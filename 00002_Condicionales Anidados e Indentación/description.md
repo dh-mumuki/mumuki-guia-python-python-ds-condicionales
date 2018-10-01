@@ -1,6 +1,6 @@
 ### Condicionales Anidados e Indentación.
 
-#### Indentación
+#### Indentación.
 
 En Python, lo que determina la forma en la que se encuentra agrupado el código, es la indentación.
 
@@ -46,5 +46,19 @@ Como se puede observar, en ambos ejemplos siempre se ejecuta el `print` que impr
 Entonces el indicador de que una sentencia pertenece o no al bloque, depende de la indentación.
 
 #### Condicionales anidados.
+
+Es posible realizar una evaluación sobre expresiones condicionales dentro del bloque de código que corresponde al resultado de una evaluación de otra expresión.
+
+
+``` python
+if 3 > 1:
+    # Código correspondiente al primer if
+    if 2 < 3:
+        # Código correspondiente al segundo if
+        print('las dos condiciones son correctas')
+    # Vuelta del código correspondiente al primer if
+```
+
+En esta demostración podemos observar la importancia de los espacios, al momento de definir el alcance de cada bloque de código. Este alcance toma importancia cuando utilizamos el código alternativo mediante el uso del `if`/`elif`/`else`
 
 
