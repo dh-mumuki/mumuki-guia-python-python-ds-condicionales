@@ -10,10 +10,10 @@ Veamos estos ejemplos con expresiones condicionales,
 
   ``` python
 if True:
-  #en este nivel va el código que pertenece al bloque del if
-  print(1)
-  print(2)
-  print('etc')
+    #en este nivel va el código que pertenece al bloque del if
+    print(1)
+    print(2)
+    print('etc')
 #en este nivel estamos fuera del primer if
 print('termino')
   ```
@@ -30,10 +30,10 @@ Lo que determina el final del alcance del bloque de código que pertenece al `if
 
   ``` python
 if False:
-  #en este nivel va el código que pertenece al bloque del if
-  print(1)
-  print(2)
-  print('etc')
+    #en este nivel va el código que pertenece al bloque del if
+    print(1)
+    print(2)
+    print('etc')
 #en este nivel estamos fuera del primer if
 print('termino')
   ```
