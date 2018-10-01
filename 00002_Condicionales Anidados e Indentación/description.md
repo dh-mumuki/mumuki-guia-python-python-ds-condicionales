@@ -61,4 +61,23 @@ if 3 > 1:
 
 En esta demostración podemos observar la importancia de los espacios, al momento de definir el alcance de cada bloque de código. Este alcance toma importancia cuando utilizamos el código alternativo mediante el uso del `if`/`elif`/`else`
 
+``` python
 
+num = 4
+if num % 2 == 0:
+    # dentro de este nivel se cumple que num es primo
+    if num > 0:
+        # dentro de este nivel se sigue cumpliendo que num esa primo
+        # pero ademas num es positivo
+        print('las dos condiciones son correctas')
+    else:
+        # este else corresponde al segundo if
+        # dentro de este else, num no es mayor que cero.
+        print('num no es mayor que cero')
+else:
+    # este else corresponde al primer if
+    # dentro de este else, num no es primo
+    print('num no es primo')
+
+
+```
