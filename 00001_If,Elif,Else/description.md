@@ -4,14 +4,14 @@ Como el valor `True` siempre es verdadero, entonces el código dentro del `if` (
 
 ``` python
 if True:
-  print('entré en el primer if')
+    print('entré en el primer if')
 ```
 _Salida:_
 **> entre en el primer if**
 
 ``` python
 if False:
-  print('entré en el segundo if')
+    print('entré en el segundo if')
 ```
 _Salida:_
 **>**
@@ -25,7 +25,7 @@ Retomemos los ejemplos del <a href=#/guides/dh-mumuki/mumuki-guia-python-python-
       
       ``` python
     if 3 > 2:
-      print('Es mayor')
+        print('Es mayor')
     ```
     _Salida:_
   **> Es mayor**
@@ -36,7 +36,7 @@ En este último caso podemos observar la utilidad del `if`, ya que, en función 
       
       ``` python
     if len('Python') == 3:
-      print('tiene pocos elementos')
+        print('tiene pocos elementos')
     ```
     _Salida:_ 
   **>**
@@ -47,7 +47,7 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
       
       ``` python
     if 2*2 == 2**2:
-      print(3*8)
+        print(3*8)
     ```
     _Salida:_
   **> 24**
@@ -56,7 +56,7 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
       
     ``` python
     if 'pingüino' in ['ballena', 'pingüino', 'pulpo']:
-      print('lo encontre')
+        print('lo encontre')
     ```
     _Salida:_
   **> 'lo encontre'**
@@ -98,9 +98,9 @@ Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <
     num_3 = 360
 
     if num_3 < 180:
-      print(num_3, 'es menor a 180')
+        print(num_3, 'es menor a 180')
     else:
-      print(num_3, 'no es menor a 180')
+        print(num_3, 'no es menor a 180')
   ```
   
   _Salida:_
