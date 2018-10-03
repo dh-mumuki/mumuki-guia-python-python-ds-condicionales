@@ -132,4 +132,7 @@ else:
     print('no es ni igual ni menor a 10')
 
 ```
-_Salida:_  ** > es menor que 10**
+  _Salida:_  
+  ** > es menor que 10**
+
+fasd
