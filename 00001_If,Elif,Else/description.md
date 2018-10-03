@@ -133,7 +133,7 @@ else:
 
 ```
 
-    _Salida:_
+  _Salida:_
   **> 24**
 
 fasd
