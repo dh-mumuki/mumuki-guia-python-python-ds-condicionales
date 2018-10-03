@@ -118,3 +118,19 @@ Como se puede observar en este último ejemplo, no existe precedencia de una exp
 
 Además es posible tomar decisiones utilizando un conjunto de expresiones condicionales alternativas, esto podría ser útil cuando se desean tomar mas de dos decisiones sobre estos conjuntos de expresiones.
 
+
+``` python
+num = 10
+
+if num < 10:
+    print('es menor que 10')
+
+elif num == 10:
+    print('es igual a 10')
+    
+else:
+    print('no es ni igual ni menor a 10')
+
+```
+_Salida:_ 
+**> es menor que 10 **
