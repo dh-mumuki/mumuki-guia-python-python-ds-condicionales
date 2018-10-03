@@ -133,4 +133,4 @@ else:
 
 ```
 _Salida:_ 
-**> es menor que 10 **
+ **> es menor que 10 **
