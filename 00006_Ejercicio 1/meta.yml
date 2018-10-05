@@ -13,4 +13,4 @@ choices:
   checked: false
 - value: No es posible imprimir simultaneamente "a" y "d"
   checked: true
-name: Ejercicio
+name: Ejercicio 1
