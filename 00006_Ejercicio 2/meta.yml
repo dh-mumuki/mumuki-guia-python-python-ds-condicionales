@@ -15,4 +15,4 @@ choices:
   checked: true
 - value: Con **num** = 7 se imprime "a" y posteriormente se imprime "d"
   checked: false
-name: Ejercicio 1
+name: Ejercicio 2

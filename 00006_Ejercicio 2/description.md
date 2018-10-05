@@ -1,4 +1,4 @@
-Veamos el siguiente código:
+Dado el siguiente código:
 
 ``` python
 if num > 5:
@@ -9,8 +9,5 @@ if num > 5:
         print('c')
 else:
     print('d')
-
-
 ```
-
 ¿Cual de las siguientes afirmaciones es verdaderas?
