@@ -1,0 +1,3 @@
+---
+equal: No se imprime ningún valor, ya que despúes del else no se admite una operación
+  lógica.

@@ -1,0 +1,19 @@
+---
+tags: []
+layout: input_right
+editor: single_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- value: Se imprime "python"  porque la palabra_1 tiene mas caracteres que palabra_2
+  checked: false
+- value: Se imprime "unas palabras"  porque el operador de señal apunta a len(palabra_2)
+  checked: false
+- value: No se imprime ningún valor, ya que despúes del else no se admite una operación
+    lógica.
+  checked: true
+- value: Se imprimen ambas palabras, primero palabra_1 y después palabra_2
+  checked: false
+name: Ejercicio3
