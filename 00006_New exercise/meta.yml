@@ -1,0 +1,16 @@
+---
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- value: Con **num** = 7 se imprime "d"
+  checked: false
+- value: Con **num** = 10 se imprime "d" y "a"
+  checked: false
+- value: No es posible imprimir simultaneamente "a" y "d"
+  checked: true
+name: New exercise
