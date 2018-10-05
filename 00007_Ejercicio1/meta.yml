@@ -19,4 +19,4 @@ choices:
   checked: true
 - value: La primera condición es excluyente por lo que siempre es False
   checked: false
-name: Ejercicio2
+name: Ejercicio1
