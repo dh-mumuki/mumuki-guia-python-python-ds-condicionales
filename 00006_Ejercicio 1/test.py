@@ -1,2 +1,2 @@
 ---
-equal: '2'
+equal: No es posible imprimir simultaneamente "a" y "d"

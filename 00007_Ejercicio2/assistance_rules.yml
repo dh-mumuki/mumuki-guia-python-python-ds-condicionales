@@ -1,0 +1,4 @@
+---
+rules:
+- when: submission_errored
+  then: Repasar operadores lógicos

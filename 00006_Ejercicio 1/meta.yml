@@ -1,7 +1,7 @@
 ---
 tags: []
-layout: input_bottom
-editor: multiple_choice
+layout: input_right
+editor: single_choice
 type: problem
 extra_visible: false
 language: text
@@ -9,8 +9,10 @@ manual_evaluation: false
 choices:
 - value: Con **num** = 7 se imprime "d"
   checked: false
-- value: Con **num** = 10 se imprime "d" y "a"
+- value: Con **num** = 10 se imprime "d" y  se imprime "a"
   checked: false
 - value: No es posible imprimir simultaneamente "a" y "d"
   checked: true
+- value: Con **num** = 7 se imprime "a" y posteriormente se imprime "d"
+  checked: false
 name: Ejercicio 1
