@@ -3,7 +3,7 @@
 
 ## Introducción al uso de condicionales.
 
-Los condicionales en python son estructuras de control que sirven para evaluar un predicado en términos de <a href=https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico> verdadero o falso </a> (o sea, que la sentencia se cumpla o no)
+Los condicionales en python son estructuras de control que sirven para definir si algo es <a href=https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico> verdadero o falso </a> (o sea, que la sentencia se cumpla o no)
 
 Entre los condicionales principales encontramos **if**, **if-else**, **if-elif-else**:
           
