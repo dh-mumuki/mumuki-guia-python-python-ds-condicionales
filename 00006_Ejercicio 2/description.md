@@ -1,4 +1,4 @@
-Dado el siguiente código:
+**Dado el siguiente código:**
 
 ``` python
 if num > 5:

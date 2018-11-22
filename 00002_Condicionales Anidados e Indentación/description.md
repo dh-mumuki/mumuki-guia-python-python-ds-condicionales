@@ -78,3 +78,18 @@ else:
     # dentro de este else, num no es primo
     print('num no es primo')
 ```
+<br>
+
+**Dado el siguiente código:**
+
+``` python
+if num > 5:
+    print('a')
+    if num % 2 == 0:
+        print('b')
+    else:
+        print('c')
+else:
+    print('d')
+```
+**¿Cual de las siguientes afirmaciones es verdaderas?**

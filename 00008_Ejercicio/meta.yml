@@ -1,6 +1,6 @@
 ---
 tags: []
-layout: input_right
+layout: input_bottom
 editor: single_choice
 type: problem
 extra_visible: false
@@ -16,4 +16,4 @@ choices:
   checked: true
 - value: Se imprimen ambas palabras, primero palabra_1 y después palabra_2
   checked: false
-name: Ejercicio3
+name: Ejercicio
