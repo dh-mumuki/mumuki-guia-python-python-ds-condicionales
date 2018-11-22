@@ -1,9 +1,20 @@
 ---
 tags: []
 layout: input_bottom
-editor: code
-type: reading
+editor: multiple_choice
+type: problem
 extra_visible: false
+language: text
 manual_evaluation: false
-choices: []
+choices:
+- value: len("True") == 4
+  checked: true
+- value: for i in lista == 1
+  checked: false
+- value: '"rojo"= str(rojo)'
+  checked: false
+- value: 5 >= 5
+  checked: true
+- value: '"rojo" in {"rojo", "amarillo", ''azul''}'
+  checked: false
 name: Expresión condicional
