@@ -56,3 +56,9 @@ True or False
   ```
   _Salida:_
 **> True**
+<br>
+
+**Cuál de estas expresiones evalúa `TRUE`? Considerar las siguientes variables:** 
+* A = True
+* B = True
+* C = False

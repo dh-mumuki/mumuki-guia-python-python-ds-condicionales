@@ -1,9 +1,22 @@
 ---
 tags: []
 layout: input_bottom
-editor: code
-type: reading
+editor: single_choice
+type: problem
 extra_visible: false
+language: text
 manual_evaluation: false
-choices: []
+choices:
+- value: Si num es mayor a 1 entonces se ejecuta el código contenido en el else
+  checked: false
+- value: Si num es menor que 1 entonces se ejecuta el código contenido en el else
+  checked: false
+- value: No se puede evaluar mediante el operador "or" dos condicionales que usen
+    la misma variable.
+  checked: false
+- value: El resultado de la evaluación del if, siempre es verdadero ya que uno de
+    los enunciados lógicos es verdadero
+  checked: true
+- value: La primera condición es excluyente por lo que siempre es False
+  checked: false
 name: If, Elif, Else

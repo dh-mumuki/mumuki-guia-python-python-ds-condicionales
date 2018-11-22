@@ -1,9 +1,18 @@
 ---
 tags: []
 layout: input_bottom
-editor: code
-type: reading
+editor: multiple_choice
+type: problem
 extra_visible: false
+language: text
 manual_evaluation: false
-choices: []
+choices:
+- value: A and B and C
+  checked: false
+- value: not A or B
+  checked: true
+- value: len("Marta") == 4 or True
+  checked: true
+- value: A or not B and A==B
+  checked: true
 name: Operadores Lógicos.
