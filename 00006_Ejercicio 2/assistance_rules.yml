@@ -1,7 +1,0 @@
----
-rules:
-- when:
-    only_these_tests_failed:
-    - un número par, cuando se divide en dos, tiene como resultado un número sin "resto"
-  then: un número par, cuando se divide en dos, tiene como resultado un número sin
-    "resto"
