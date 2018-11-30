@@ -1,6 +1,6 @@
-Ahora vamos a utilizar las expresiones condicionales como una herramienta de decisión, para eso veamos como se comporta el llamado a `if`, recordemos que en python el valor `True` es un <a href=https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico > un tipo de datos booleano </a>que quiere decir verdadero.
+Ahora vamos a utilizar las expresiones condicionales como una herramienta de decisión. Para eso, veamos cómo se comporta el llamado `if`.  Recordemos: en Python el valor `True` es un un tipo de datos booleano que quiere decir verdadero.<br>
 
-Como el valor `True` siempre es verdadero, entonces el código dentro del `if` (que se encuentra a un nivel más de <a href=https://es.wikipedia.org/wiki/Indentaci%C3%B3n> indentación </a>) se ejecuta.
+Como el valor `True` siempre es verdadero. Entonces el código dentro del `if` ,que se encuentra a un nivel más de [indentación](https://es.wikipedia.org/wiki/Indentaci%C3%B3n), se ejecuta. 
 
 ``` python
 if True:
@@ -17,9 +17,9 @@ _Salida:_
 **>**
 
 
-El resultado de la evaluación del `False` es siempre falso, por esa razón el código dentro de este segundo condicional, nunca va a ser ejecutado.
+El resultado de la evaluación del `False` es siempre falso. Por esa razón, el código dentro de este segundo condicional nunca va a ser ejecutado.
 
-Retomemos los ejemplos del <a href=#/guides/dh-mumuki/mumuki-guia-python-python-ds-condicionales/exercises/4 >enunciado anterior </a>, pero ahora vamos a utilizar los condicionales para darle un sentido a las evaluaciones:
+Retomemos los ejemplos del [enunciado anterior](href=#/guides/dh-mumuki/mumuki-guia-python-python-ds-condicionales/exercises/4) pero ahora vamos a utilizar los condicionales para darle un sentido a las evaluaciones:
 
   * Si un número es mayor a otro número, entonces...
       
@@ -30,9 +30,9 @@ Retomemos los ejemplos del <a href=#/guides/dh-mumuki/mumuki-guia-python-python-
     _Salida:_
   **> Es mayor**
 
-En este último caso podemos observar la utilidad del `if`, ya que, en función al resultado de una expresión, podemos tomar determinadas decisiones, en este caso, imprimir: 'Es mayor'
+En este último caso podemos observar la utilidad del `if`, ya que, en función al resultado de una expresión podemos tomar determinadas decisiones. En este caso imprimir: 'Es mayor'
 
-  * Si la cantidad de elementos (caractéres) en una palabra es igual a una magnitud dada, imprime 'tiene pocos elementos'
+  * Si la cantidad de elementos (caracteres) en una palabra es igual a una magnitud dada, imprime: 'tiene pocos elementos'
       
       ``` python
     if len('Python') == 3:
@@ -41,7 +41,7 @@ En este último caso podemos observar la utilidad del `if`, ya que, en función 
     _Salida:_ 
   **>**
 
-En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tanto el codigo dentro del condicional `if` no se ejecutará.
+En este caso la cantidad de caracteres en `Python` no es igual a 3, por lo tanto, el código dentro del condicional if no se ejecutará.
 
   * Si el resultado de una operación numérica es igual al resultado de otra, entonces multiplica 3x8 e imprime el resultado.
       
@@ -52,7 +52,7 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
     _Salida:_
   **> 24**
 
-  * si existe un elemento dado en una lista, entonces imprime 'lo encontre'.
+  * Si existe un elemento dado en una lista, entonces imprime 'lo encontre'.
       
     ``` python
     if 'pingüino' in ['ballena', 'pingüino', 'pulpo']:
@@ -82,11 +82,11 @@ En este caso, la cantidad de caracteres en 'Python' no es igual a 3, por lo tant
   _Salida:_
   **> 360 es menor a 100**
 
-Como podemos observar en esta demostración, solo los `if` en donde el resultado es `True`, ejecutan el código correspondiente.
+Como podemos observar, en esta demostración, solo los if en donde el resultado es True ejecutan el código correspondiente.  
 
-Ahora bien, es posible ejecutar código alternativo cuando no se cumple la condición declarada en el `if`, una de las formas es hacer un llamado al `else`.
+Ahora bien, es posible ejecutar código alternativo cuando no se cumple la condición declarada en el if una de las formas es hacer un llamado al else.<br>
 
-### Ejecutando código alternativo... (`if`/`else`).
+### Ejecutando código alternativo... (`if`/`else`)
 
 Cuando no se cumple una condición dada en `if`, es posible ejecutar un bloque de código alternativo, una forma es utilizar una llamada al `else`.
 

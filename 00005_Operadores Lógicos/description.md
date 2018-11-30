@@ -11,7 +11,7 @@ En python3 estos operadores son 3 `not`, `and` y `or`.
 
 ### Ejemplos
 
-Observemos con cuidado las siguientes expresiones para ver como se comportan los operadores:
+Observemos con cuidado las siguientes expresiones para ver cómo se comportan los operadores:
 
   ``` python
 not False
@@ -58,7 +58,7 @@ True or False
 **> True**
 <br>
 
-**Cuál de estas expresiones evalúa `TRUE`? Considerar las siguientes variables:** 
+**¿Cuáles de estas expresiones evalúan `TRUE`? Considerar las siguientes variables:** 
 * A = True
 * B = True
 * C = False

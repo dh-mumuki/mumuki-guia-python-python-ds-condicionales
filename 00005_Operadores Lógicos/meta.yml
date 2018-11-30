@@ -15,4 +15,4 @@ choices:
   checked: true
 - value: A or not B and A==B
   checked: true
-name: Operadores Lógicos.
+name: Operadores Lógicos
