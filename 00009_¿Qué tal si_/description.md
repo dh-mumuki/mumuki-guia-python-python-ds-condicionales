@@ -8,7 +8,7 @@ Ahora bien ¿Cómo podemos llevar esto a código? Primero deberemos entender que
 
 1. La palabra reservada `if`.
 2. La condición que queremos evaluar, seguida de `:`
-3. El bloque de código que se ejecuta en el caso que la condición evaluada se cumpla (es decir, sea `true` -verdadera-), en la siguiente línea.**{}**.
+3. El bloque de código que se ejecuta en el caso que la condición evaluada se cumpla (es decir, sea `true` -verdadera-), en la siguiente línea.
 
 Veamos un ejemplo:
 
