@@ -12,26 +12,30 @@ Ahora bien ¿Cómo podemos llevar esto a código? Primero deberemos entender que
 
 Veamos un ejemplo:
 
-```javascript
-var numero = 43;
+```python
+numero = 43;
 
-if (numero > 0) {
-    console.log('El número es positivo');
-}
+if numero > 0:
+    print('El número es positivo')
+    
+ム
+> 'El número es positivo'
 ```
 
 Ahora ¿Qué podríamos hacer para codificar nuestra salida a la plaza?
 
 Veámoslo:
 
-```javascript
-if (diaSoleado == true) {
-    console.log('¡Qué bien¡ Salgamos a la plaza');
-}
+```python
+if dia_soleado == True:
+    print('¡Qué bien¡ Salgamos a la plaza')
+
+ム
+> ¡Qué bien¡ Salgamos a la plaza'
 ```
 
-En el ejemplo anterior, `diaSoleado` sería una variable que almacena un valor booleano, y siempre y cuando ese valor sea exactamente igual a `true`, vamos a ejecutar el bloque de código que se encuentra dentro de las `{}`, en ese caso, el `console.log`. Va tomando más sentido ¿no?
+En el ejemplo anterior, `dia_soleado` sería una variable que almacena un valor booleano, y siempre y cuando ese valor sea exactamente igual a `True`, vamos a ejecutar el bloque de código que se encuentra debajo, en ese caso, el `print()`. Va tomando más sentido ¿No?
 
 Hagamos una pequeña práctica para ir asentando el concepto. 
 
-> Declará la variable `diaDeSemana` y asignale el valor `"domingo"`. Luego implementa un condicional usando el `if` que compare la igualdad de `diaDeSemana` con el día `"domingo"`, y si es verdadero que imprima por pantalla `"Hoy se juega al futbol!!!"`.
+> :memo:**Declará la variable `dia_de_semana` y asignale el valor `"domingo"`. Luego implementa un condicional usando el `if` que compare la igualdad de `dia_de_semana` con el día `"domingo"`, y si es verdadero que imprima por pantalla `"Hoy se juega al futbol!!!"`.**
