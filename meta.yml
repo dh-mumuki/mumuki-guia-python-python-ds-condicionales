@@ -7,9 +7,9 @@ teacher_info: ''
 language: python
 id_format: "%05d"
 order:
+- 9
 - 4
 - 5
 - 1
 - 2
 - 8
-- 9
