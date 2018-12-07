@@ -25,7 +25,7 @@ Estas expresiones se pueden pensar como una pregunta que se hace con respecto a 
       ``` python
     2*2 == 2**2
     ム
-    True
+    > True
     ```
 
   * ¿Existe un elemento dado en una lista?
