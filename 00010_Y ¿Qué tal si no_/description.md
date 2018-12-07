@@ -22,7 +22,7 @@ El condicional `else` nos permite ejecutar un bloque de código, en el caso que 
 1. La palabra reservada `else`.
 2. El bloque de código que se ejecuta en el caso que la condición del `if` no se cumpla.
 
-Entonces, ahora que sabemos cómo funcionan el `if` y `else`, veamos un ejemplo: 
+Entonces, ahora que sabemos cómo funcionan el `if` y `else`, veamos otro ejemplo: 
 
 ```python
  num_3 = 360
