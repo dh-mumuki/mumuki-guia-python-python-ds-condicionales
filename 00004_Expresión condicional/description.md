@@ -17,7 +17,7 @@ Estas expresiones se pueden pensar como una pregunta que se hace con respecto a 
     len('Python') == 3
     
     ム
-    False
+    > False
     ```
 
   * ¿El resultado de una operación numérica es igual al resultado de otra?
@@ -34,7 +34,7 @@ Estas expresiones se pueden pensar como una pregunta que se hace con respecto a 
     'pingüino' in ['ballena', 'pingüino', 'pulpo']
     
     ム
-    True
+    > True
     ```
 
 Las expresiones condicionales se pueden volver mas complejas con el uso de operadores lógicos.
