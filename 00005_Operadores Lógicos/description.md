@@ -1,6 +1,4 @@
-### Operadores lógicos.
-
-Los operadores lógicos o booleanos permiten unir un conjunto de evaluaciones separadas, en una sola expresión mas compleja.
+Los operadores lógicos o booleanos permiten unir un conjunto de evaluaciones separadas en una sola expresión más compleja.
 
 En python3 estos operadores son 3 `not`, `and` y `or`.
   
@@ -15,50 +13,57 @@ Observemos con cuidado las siguientes expresiones para ver cómo se comportan lo
 
   ``` python
 not False
+
+ム
+> True
   ```
-  _Salida:_
-**> True**
 
   ``` python
 not 3 > 2
-  ```
-  _Salida:_
-**> False**
 
+ム
+> False
+  ```
 
   ``` python
 True and True
+
+ム
+> True
   ```
-  _Salida:_
-**> True**
 
   ``` python
 True and False
-  ```
-  _Salida:_
-**> False**
 
+ム
+> False
+  ```
+  
   ``` python
 # len(lista) devuelve la cantidad de elementos
 3 < 5 and len([1,2,3]) == 3
+
+ム
+> True
   ```
-  _Salida:_
-**> True**
 
   ``` python
 True or False
+
+ム
+> True
   ```
-  _Salida:_
-**> True**
 
   ``` python
 2 < 1 or -1 < 3
+
+ム
+> True
   ```
-  _Salida:_
-**> True**
+
 <br>
 
-**¿Cuáles de estas expresiones evalúan `TRUE`? Considerar las siguientes variables:** 
-* A = True
-* B = True
-* C = False
+> :memo: **¿Cuáles de estas expresiones evalúan `TRUE`? Considerar las siguientes variables:** <br> 
+**A = True <br>
+B = True <br>
+C = False <br>**
