@@ -5,17 +5,18 @@ Como el valor `True` siempre es verdadero. Entonces el código dentro del `if` ,
 ``` python
 if True:
     print('entré en el primer if')
+    
+    ム
+    > entré en el primer if 
 ```
-_Salida:_
-**> entre en el primer if**
 
 ``` python
 if False:
     print('entré en el segundo if')
+    
+    ム
+    > 
 ```
-_Salida:_
-**>**
-
 
 El resultado de la evaluación del `False` es siempre falso. Por esa razón, el código dentro de este segundo condicional nunca va a ser ejecutado.
 
@@ -26,9 +27,10 @@ Retomemos los ejemplos del [enunciado anterior](href=#/guides/dh-mumuki/mumuki-g
       ``` python
     if 3 > 2:
         print('Es mayor')
+        
+        ム
+        > Es mayor
     ```
-    _Salida:_
-  **> Es mayor**
 
 En este último caso podemos observar la utilidad del `if`, ya que, en función al resultado de una expresión podemos tomar determinadas decisiones. En este caso imprimir: 'Es mayor'
 
@@ -37,9 +39,10 @@ En este último caso podemos observar la utilidad del `if`, ya que, en función 
       ``` python
     if len('Python') == 3:
         print('tiene pocos elementos')
+        
+        ム
+        >
     ```
-    _Salida:_ 
-  **>**
 
 En este caso la cantidad de caracteres en `Python` no es igual a 3, por lo tanto, el código dentro del condicional if no se ejecutará.
 
@@ -48,20 +51,20 @@ En este caso la cantidad de caracteres en `Python` no es igual a 3, por lo tanto
       ``` python
     if 2*2 == 2**2:
         print(3*8)
+        
+        ム
+        >24 
     ```
-    _Salida:_
-  **> 24**
 
   * Si existe un elemento dado en una lista, entonces imprime 'lo encontre'.
       
     ``` python
     if 'pingüino' in ['ballena', 'pingüino', 'pulpo']:
         print('lo encontre')
+        
+        ム
+        > lo encontré
     ```
-    _Salida:_
-  **> 'lo encontre'**
-
-
 
   * Supongamos que debemos evaluar dos variables, ambas son enteros, y queremos declarar algunos predicados condicionales relacionados con la magnitud de estas variables.
 
@@ -78,11 +81,11 @@ En este caso la cantidad de caracteres en `Python` no es igual a 3, por lo tanto
         
     if num_3 < 180:
         print(num_3, 'es menor a 180')
+        
+    ム
+    > 360 es menor a 100
     ```
-  _Salida:_
-  **> 360 es menor a 100**
-
-Como podemos observar, en esta demostración, solo los if en donde el resultado es True ejecutan el código correspondiente.  
+Como podemos observar en esta demostración, solo los if en donde el resultado es True ejecutan el código correspondiente.  
 
 Ahora bien, es posible ejecutar código alternativo cuando no se cumple la condición declarada en el if una de las formas es hacer un llamado al else.<br>
 
@@ -101,12 +104,9 @@ Para utilizar un esquema `if`/`else`, ambos tienen que estar al mismo nivel de <
         print(num_3, 'es menor a 180')
     else:
         print(num_3, 'no es menor a 180')
+    ム
+    > 360 no es menor a 180
   ```
-  
-  _Salida:_
-  **> 360 no es menor a 180**
-
-
 
 Como se puede observar en este último ejemplo, no existe precedencia de una expresión lógica despúes del `else`, ya que la ejecución del código del `else`, en este esquema, depende de la evaluación realizada en el `if`: 
   
@@ -131,12 +131,13 @@ elif num == 10:
 else:
     print('no es ni igual ni menor a 10')
 
+ム
+> 24
+
 ```
 
-  _Salida:_
-  **> 24**
-
 <br>
+****
 **Veamos el siguiente código**
 
 ``` python
@@ -146,4 +147,4 @@ else:
     print("primer else")
 ```
 
-**¿Cúal de los enunciados es el verdadero**?
+> :memo:**¿Cúal de los enunciados es el verdadero?**
