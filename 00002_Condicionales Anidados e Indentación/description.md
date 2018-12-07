@@ -1,12 +1,10 @@
-### Condicionales Anidados e Indentación
-
 #### Indentación
 
 En Python lo que determina la forma en la que se encuentra agrupado el código es la indentación.
 
 Por lo tanto, los bloques de código vienen definidos por la cantidad de espacios desde el comienzo de linea.
 
-Veamos estos ejemplos con expresiones condicionales, 
+Veamos estos ejemplos con expresiones condicionales: 
 
   ``` python
 if True:
@@ -16,15 +14,15 @@ if True:
     print('etc')
 #en este nivel estamos fuera del primer if
 print('termino')
-  ```
-  _Salida:_
-  
-**> 1**  
-**> 2**  
-**> etc**  
-**> termino**  
 
-En este primer ejemplo, podemos observar que el efecto del `if` va desde el `print` de '1', hasta el `print` de 'etc'.
+ム
+>1
+>2
+>etc
+>termino
+  ```
+
+En este primer ejemplo podemos observar que el efecto del `if` va desde el `print` de '1', hasta el `print` de 'etc'.
 
 Lo que determina el final del alcance del bloque de código que pertenece al `if`, es la vuelta al nivel de indentación previo.
 
@@ -36,14 +34,13 @@ if False:
     print('etc')
 #en este nivel estamos fuera del primer if
 print('termino')
+
+ム
+> termino
   ```
-  _Salida:_
-  
-**> termino**  
+Como se puede observar, en ambos ejemplos, siempre se ejecuta el `print` que imprime "termino", sin embargo, el bloque que pertenece al `if`, se ejecuta en función al resultado de la evaluacion de la expresion dada.
 
-Como se puede observar, en ambos ejemplos siempre se ejecuta el `print` que imprime "termino", sin embargo, el bloque que pertenece al `if`, se ejecuta en función al resultado de la evaluacion de la expresion dada.
-
-Entonces el indicador de que una sentencia pertenece o no al bloque, depende de la indentación.
+Entonces el indicador de que una sentencia pertenece o no al bloque depende de la indentación.
 
 #### Condicionales anidados
 
@@ -80,6 +77,7 @@ else:
 ```
 <br>
 
+***
 **Dado el siguiente código:**
 
 ``` python
@@ -92,4 +90,4 @@ if num > 5:
 else:
     print('d')
 ```
-**¿Cual de las siguientes afirmaciones es verdaderas?**
+> :memo:**¿Cual de las siguientes afirmaciones es verdaderas?**
