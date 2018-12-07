@@ -33,6 +33,7 @@ if dia_soleado == True:
 ム
 > ¡Qué bien¡ Salgamos a la plaza'
 ```
+Si prestaste atención te habrás dado cuenta que para comparar `dia_soleado` con `True` utilizamos `==`. Se hace de esta manera porque si usaramos un solo `=`, es como estuvieramos definiendo una variable.
 
 En el ejemplo anterior, `dia_soleado` sería una variable que almacena un valor booleano, y siempre y cuando ese valor sea exactamente igual a `True`, vamos a ejecutar el bloque de código que se encuentra debajo, en ese caso, el `print()`. Va tomando más sentido ¿No?
 
