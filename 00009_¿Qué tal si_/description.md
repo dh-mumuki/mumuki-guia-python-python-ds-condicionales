@@ -34,9 +34,9 @@ if dia_soleado == True:
 > ¡Qué bien¡ Salgamos a la plaza'
 ```
 Si prestaste atención te habrás dado cuenta que para comparar `dia_soleado` con `True` utilizamos `==`. Se hace de esta manera porque si usaramos un solo `=`, es como estuvieramos definiendo una variable.
-
+<br>
 En el ejemplo anterior, `dia_soleado` sería una variable que almacena un valor booleano, y siempre y cuando ese valor sea exactamente igual a `True`, vamos a ejecutar el bloque de código que se encuentra debajo, en ese caso, el `print()`. Va tomando más sentido ¿No?
-
+<br>
 Hagamos una pequeña práctica para ir asentando el concepto. 
-
+<br>
 > :memo:**Declará la variable `dia_de_semana` y asignale el valor `"domingo"`. Luego implementa un condicional usando el `if` que compare la igualdad de `dia_de_semana` con el día `"domingo"`, y si es verdadero que imprima por pantalla `"Hoy se juega al futbol!!!"`.**
