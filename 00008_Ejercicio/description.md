@@ -13,4 +13,4 @@ else len(palabra_1) < len(palabra_2):
 
 ```
 
-**Teniendo en cuenta el código anterior elegir la respuesta correcta**
+> :memo:**Teniendo en cuenta el código anterior elegir la respuesta correcta**
