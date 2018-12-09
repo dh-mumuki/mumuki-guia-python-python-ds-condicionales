@@ -1,17 +1,17 @@
 En el ejercicio anterior analizamos el siguiente código:
 
 ```python
-if diaSoleado == true :
+if dia_soleado == true :
    print ('¡Qué bien¡ Salgamos a la plaza')
 
 ```
 
-Y comentamos que siempre y cuando el valor de **diaSoleado** sea exactamente igual a `true`, vamos a ejecutar el bloque de código que se encuentra debajo.
+Y comentamos que siempre y cuando el valor de **dia_soleado** sea exactamente igual a `true`, vamos a ejecutar el bloque de código que se encuentra debajo.
 
 Muy bien, pero ¿Qué pasa si queremos hacer algo en caso de que el día no esté soleado?. Es ahí en donde entra el `else`, la contraparte del `if`. Se vería así:
 
 ```python
-if diaSoleado == true :
+if dia_soleado == true :
     print ('¡Qué bien¡ Salgamos a la plaza') 
 else :
     print ('¡Uff que mal! mejor nos quedamos codeando')
