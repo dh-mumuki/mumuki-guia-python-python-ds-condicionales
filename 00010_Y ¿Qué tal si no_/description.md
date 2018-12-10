@@ -25,12 +25,12 @@ El condicional `else` nos permite ejecutar un bloque de código, en el caso que 
 Entonces, ahora que sabemos cómo funcionan el `if` y `else`, veamos otro ejemplo: 
 
 ```python
- num_3 = 360
+num_3 = 360
 
-    if num_3 < 180:
-        print(num_3, 'es menor a 180')
-    else:
-        print(num_3, 'no es menor a 180')
+if num_3 < 180:
+  print(num_3, 'es menor a 180')
+else:
+  print(num_3, 'no es menor a 180')
     
 ム
 > 360 no es menor a 180
