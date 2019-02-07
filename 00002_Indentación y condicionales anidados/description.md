@@ -1,6 +1,6 @@
 #### Indentación
 
-En Python, lo que determina la forma en la que se encuentra agrupado el código es la **indentación**.
+En Python, lo que determina la forma en la que se encuentra estructurado el código es la **indentación**. Podemos pensar en la indentación como la sangría que dejamos al inicio de cada línea de código.
 
 Por lo tanto, los bloques de código vienen definidos por la cantidad de espacios en blanco que hay al comienzo de cada línea.
 
