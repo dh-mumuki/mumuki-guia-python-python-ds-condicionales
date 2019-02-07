@@ -19,4 +19,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: Con **num** = 7 se imprime "a" y posteriormente se imprime "d"
   checked: false
-name: Condicionales anidados e indentación
+name: Indentación y condicionales anidados
