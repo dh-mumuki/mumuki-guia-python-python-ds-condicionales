@@ -8,18 +8,15 @@ language: text
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: len("True") == 4
+  value: "-10 < 0"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: for i in lista == 1
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '"rojo"= str(rojo)'
+  value: 3**2 == 6
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: 5 >= 5
+  value: 8 > 5
   checked: true
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: '"rojo" in {"rojo", "amarillo", ''azul''}'
-  checked: false
 name: Expresión condicional

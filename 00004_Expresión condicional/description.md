@@ -11,7 +11,7 @@ Estas expresiones se pueden pensar como una pregunta que se hace con respecto a 
     > True
     ```
 
-  * ¿La cantidad de elementos (caractéres) en una palabra es igual a una magnitud dada?
+  * ¿La cantidad de elementos (caracteres) en una palabra es igual a una magnitud dada?
       
       ``` python
     len('Python') == 3
@@ -24,6 +24,7 @@ Estas expresiones se pueden pensar como una pregunta que se hace con respecto a 
       
       ``` python
     2*2 == 2**2
+    
     ム
     > True
     ```
@@ -37,6 +38,6 @@ Estas expresiones se pueden pensar como una pregunta que se hace con respecto a 
     > True
     ```
 
-Las expresiones condicionales se pueden volver mas complejas con el uso de operadores lógicos.
+Las expresiones condicionales se pueden volver más complejas con el uso de operadores lógicos.
 
 > :memo: **¿Cuál de estas opciones corresponde a una expresión lógica verdadera?**
