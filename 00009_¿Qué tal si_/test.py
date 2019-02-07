@@ -1,11 +1,5 @@
-describe("", function() {
-  it("Declarada la variable diaDeSemana", function() {
-    assert.notEqual(diaDeSemana, "undefined");
-  });
-    it("Le asigna el valor \"domingo\" a  diaDeSemana", function() {
-    assert.equal(diaDeSemana, "domingo");
-  });
-    it("debería imprimir ''Hoy se juega al futbol!!!''", function() {
-    assert.equal(console.toString(), "Hoy se juega al futbol!!!");
-  });
-})
+class TestFixtures(unittest.TestCase):
+  
+  def test_dia_semana(self):
+    self.assertTrue(dia_de_semana in globals(), 'La variable dia_de_semana no existe')
+    self.assertTrue(dia_de_semana=='domingo', 'El valor de dia de semana es incorrecto.')
