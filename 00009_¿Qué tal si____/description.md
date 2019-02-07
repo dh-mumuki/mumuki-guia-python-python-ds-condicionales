@@ -1,8 +1,7 @@
 Ninguna introducción a Python estaría completa sin mostrar la estructura de control condicional conocida como `if`.<br>
 El `if` nos permite ejecutar un código sujeto a una condición.
 
-Un ejemplo de la vida real podría ser:
-**¡Si el día está soleado, vamos a la plaza!**. Aquí estamos **condicionando** nuestra salida a la plaza si y sólo si el día está soleado.
+Un ejemplo de la vida real podría ser: **¡si el día está soleado, vamos a la plaza!**. Aquí estamos **condicionando** nuestra salida a la plaza si y sólo si el día está soleado.
 
 Ahora bien, ¿cómo podemos llevar esto a código? Primero, deberemos entender que la estructura del `if` se divide en tres partes:
 
