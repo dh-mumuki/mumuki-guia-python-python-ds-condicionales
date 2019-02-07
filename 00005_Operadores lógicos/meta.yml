@@ -17,6 +17,6 @@ choices:
   value: len("Marta") == 4 or True
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: A or not B and A==B
+  value: A or not B and A == B
   checked: true
-name: Operadores Lógicos
+name: Operadores lógicos

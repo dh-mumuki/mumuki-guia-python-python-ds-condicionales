@@ -1,1 +1,0 @@
-dia_de_semana =
