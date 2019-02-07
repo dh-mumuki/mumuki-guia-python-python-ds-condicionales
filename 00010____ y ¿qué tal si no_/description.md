@@ -7,7 +7,7 @@ if dia_soleado == True:
 
 Y comentamos que siempre y cuando el valor de **dia_soleado** sea exactamente igual a `True`, vamos a ejecutar el bloque de código que se encuentra debajo de la sentencia `if`.
 
-Muy bien, pero... ¿qué pasa si queremos hacer algo en caso de que el día no esté soleado? Es ahí en donde entra la sentencia `else`, la contraparte del `if`. Se vería así:
+Muy bien, pero... ¿qué pasa si queremos hacer algo en caso de que el día no esté soleado? Es ahí en donde entra en juego la sentencia `else`, la contraparte del `if`. Se vería así:
 
 ```python
 if dia_soleado == True:
