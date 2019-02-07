@@ -8,15 +8,15 @@ language: text
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Con **num** = 7 se imprime "d"
+  value: Con **num** = 7 se imprime 'd'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Con **num** = 10 se imprime "d" y  se imprime "a"
+  value: Con **num** = 10 se imprime 'd' y  se imprime 'a'
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: No es posible imprimir simultaneamente "a" y "d"
+  value: No es posible imprimir simultaneamente 'a' y 'd'
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: Con **num** = 7 se imprime "a" y posteriormente se imprime "d"
+  value: Con **num** = 7 se imprime 'a' y posteriormente se imprime 'd'
   checked: false
 name: Indentación y condicionales anidados

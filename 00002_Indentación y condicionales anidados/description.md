@@ -1,6 +1,6 @@
 #### Indentación
 
-En Python, lo que determina la forma en la que se encuentra estructurado el código es la **indentación**. Podemos pensar en la indentación como la sangría que dejamos al inicio de cada línea de código.
+En Python, lo que determina la forma en la que se encuentra estructurado el código es la **indentación**. Podemos pensar en la indentación como la sangría que debemos dejar al inicio de ciertas línea de código.
 
 Por lo tanto, los bloques de código vienen definidos por la cantidad de espacios en blanco que hay al comienzo de cada línea.
 
@@ -8,7 +8,7 @@ Veamos estos ejemplos con expresiones condicionales:
 
   ``` python
 if True:
-    #en este nivel va el código que pertenece al bloque del if
+    # en este nivel va el código que pertenece al bloque del if
     print(1)
     print(2)
     print('Etc.')
@@ -22,13 +22,13 @@ print('Terminó')
 > Terminó
   ```
 
-En este primer ejemplo podemos observar que el efecto del `if` va desde el `print(1)`, hasta el `print('etc').
+En este primer ejemplo podemos observar que el efecto del `if` va desde el `print(1)`, hasta el `print('etc')`.
 
 Lo que determina el final del alcance del bloque de código que pertenece al `if` es la vuelta al nivel de indentación previo (sin ningún espacio en blanco al inicio de la línea).
 
   ``` python
 if False:
-    #en este nivel va el código que pertenece al bloque del if
+    # en este nivel va el código que pertenece al bloque del if
     print(1)
     print(2)
     print('Etc.')
@@ -38,9 +38,9 @@ print('Terminó')
 ム
 > Terminó
   ```
-Como se puede observar en ambos ejemplos, siempre se ejecuta el `print('Terminó'), sin embargo, el bloque que pertenece al `if` sólo se ejecuta en el primer ejemplo, en donde la condición se evalúa a `True`.
+Como se puede observar en ambos ejemplos anteriores, siempre se ejecuta el `print('Terminó')`; sin embargo, el bloque que pertenece al `if` no se ejecuta en el último ejemplo, ya que la condición se evalúa a `False`.
 
-Entonces, el indicador de que una sentencia pertenece o no a un bloque depende de la indentación.
+> **Para recordar:**<br>El indicador de que una sentencia pertenece o no a un bloque de código depende de la **indentación**.
 
 #### Condicionales anidados
 
@@ -49,11 +49,11 @@ Es posible realizar una evaluación sobre expresiones condicionales dentro del b
 
 ``` python
 if 3 > 1:
-    # Código correspondiente al primer if
+    # código correspondiente al primer if
     if 2 < 3:
-        # Código correspondiente al segundo if
+        # código correspondiente al segundo if
         print('Las dos condiciones son correctas')
-    # Vuelta del código correspondiente al primer if
+    # vuelta del código correspondiente al primer if
     print('3 es mayor que 1')
 
 ム
@@ -77,8 +77,11 @@ if num % 2 == 0:
         print(num, 'no es mayor que cero')
 else:
     # este else corresponde al primer if
-    # dentro de este else, num dividido 2 tiene decimales
+    # dentro de este else, num dividido 2 tiene resto
     print(num, 'dividido 2 tiene resto')
+
+ム
+> Las dos condiciones son correctas
 ```
 <br>
 
