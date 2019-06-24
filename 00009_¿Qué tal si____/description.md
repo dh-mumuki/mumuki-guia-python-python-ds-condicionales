@@ -39,4 +39,4 @@ En el ejemplo anterior, `dia_soleado` es una variable que almacena un valor bool
 
 Hagamos una pequeña práctica para ir asentando estos conceptos:
 
-> :memo: **Declará la variable `dia_de_semana` y asignale el valor `'domingo'`. Luego, implementá un condicional usando el `if` que evalúe si el `dia_de_semana` es `'domingo'` y, si esto es verdadero, que imprima por pantalla `'Hoy se juega al futbol!!!'`.**
+> :memo: **Declará la variable `dia_de_semana` y asignale el valor `'domingo'`. Luego, implementá un condicional usando el `if` que evalúe si el `dia_de_semana` es `'domingo'` y, si esto es verdadero, que imprima por pantalla `'Hoy se juega al futbol!!!'`.** No te preocupes si el test da un warning!.
